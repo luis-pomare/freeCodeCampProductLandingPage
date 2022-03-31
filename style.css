@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  display: none;
+}
+
+header {
+  position: fixed;
+  top: 5px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header-img {
+  width: 88vw;
+}
+
+form {
+  margin-top: 115px;
+  row-gap: 15px;
+  text-align: center;
+}
+
+#email {
+  padding: 5px;
+  width: 270px;
+  background-color: #ffffff;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+#submit {
+  background-color: rgb(249, 200, 28);
+  padding: 5px;
+  font-weight: 900;
+  margin-bottom: 75px;
+}
+
+#features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#features p {
+  margin: 0 15px 75px 15px;
+}
+
+@media (min-width: 520px) {
+}
