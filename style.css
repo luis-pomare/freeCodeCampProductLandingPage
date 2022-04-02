@@ -11,9 +11,10 @@ h1 {
 
 header {
   position: fixed;
-  top: 5px;
+  top: 0px;
   left: 50%;
   transform: translate(-50%, 0);
+  padding: 15px;
 }
 
 .flexColumn {
@@ -113,8 +114,25 @@ footer span a {
   padding: 4px;
 }
 
-.cardButton {
-}
-
 @media (min-width: 520px) {
+  #header {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100vw;
+    margin: 25px;
+  }
+
+  #nav-bar {
+    display: grid;
+    grid-template-columns: auto 93px auto;
+    column-gap: 15px;
+  }
+
+  a {
+    text-align: center;
+  }
+
+  #header-img {
+    width: 27vw;
+  }
 }
