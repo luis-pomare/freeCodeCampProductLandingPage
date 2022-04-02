@@ -46,11 +46,15 @@ a:active {
   text-decoration: none;
 }
 
-#submit {
+button {
   background-color: rgb(249, 200, 28);
   padding: 5px;
-  font-weight: 900;
   margin-bottom: 75px;
+  font-size: 18px;
+}
+
+#submit {
+  font-weight: 900;
 }
 
 #features {
@@ -62,6 +66,54 @@ a:active {
 
 #features p {
   margin: 0 15px 75px 15px;
+}
+
+video {
+  margin-bottom: 85px;
+}
+
+.card {
+  border: 1px solid #000;
+  border-radius: 2px;
+  width: 298px;
+  height: 300px;
+  margin: 7px;
+}
+
+.cardTittle {
+  padding: 17px 0 17px 0;
+  width: 100%;
+  background-color: #ddd;
+  font-weight: 600;
+  text-align: center;
+  font-size: 15px;
+}
+
+.cardPrice {
+  font-weight: 600;
+  font-size: 22px;
+  margin: 9px 0 3px 0;
+}
+
+.cardText {
+  width: 138px;
+  line-height: 33px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer {
+  padding: 25px;
+  background-color: #ddd;
+}
+
+footer p,
+footer span a {
+  background-color: #ddd;
+  padding: 4px;
+}
+
+.cardButton {
 }
 
 @media (min-width: 520px) {

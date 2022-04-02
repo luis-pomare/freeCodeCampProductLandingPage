@@ -18,9 +18,9 @@
         <h1>Original Trombones</h1>
       </span>
       <nav id="nav-bar" class="flexColumn">
-        <a href="" class="nav-link">Features</a>
-        <a href="" class="nav-link">How it works</a>
-        <a href="" class="nav-link">Pricing</a>
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#video" class="nav-link">How it works</a>
+        <a href="#cardsContainer" class="nav-link">Pricing</a>
       </nav>
     </header>
     <form
@@ -56,34 +56,44 @@
           faults and we will check and test the pitch of your instrument.
         </p>
       </article>
-      <video width="320" height="240" controls>
+      <video id="video" width="320" height="240" controls>
         <source src="images/mainVideo.mp4" type="video/mp4" />
         Your browser does not support the video.
       </video>
       <article id="cardsContainer">
-        <section>
-          <h2 class="cardTittle"></h2>
-          <p class="cardPrice"></p>
-          <p></p>
-          <button class="cardButton"></button>
+        <section class="flexColumn card">
+          <h2 class="cardTittle">TENOR TROMBONE</h2>
+          <p class="cardPrice">$600</p>
+          <p class="cardText">
+            Lorem ipsum. Lorem ipsum. Lorem ipsum dolor. Lorem ipsum.
+          </p>
+          <button class="cardButton">SELECT</button>
         </section>
-        <section>
-          <h2 class="cardTittle"></h2>
-          <p class="cardPrice"></p>
-          <p></p>
-          <button class="cardButton"></button>
+        <section class="flexColumn card">
+          <h2 class="cardTittle">BASS TROMBONE</h2>
+          <p class="cardPrice">$900</p>
+          <p class="cardText">
+            Lorem ipsum. Lorem ipsum. Lorem ipsum dolor. Lorem ipsum.
+          </p>
+          <button class="cardButton">SELECT</button>
         </section>
-        <section>
-          <h2 class="cardTittle"></h2>
-          <p class="cardPrice"></p>
-          <p></p>
-          <button class="cardButton"></button>
+        <section class="flexColumn card">
+          <h2 class="cardTittle">VALVE TROMBONE</h2>
+          <p class="cardPrice">$1200</p>
+          <p class="cardText">
+            Lorem ipsum. Lorem ipsum. Lorem ipsum dolor. Lorem ipsum.
+          </p>
+          <button class="cardButton">SELECT</button>
         </section>
       </article>
     </main>
-    <footer>
-      <li><a href=""></a><a href=""></a><a href=""></a></li>
-      <p></p>
+    <footer class="flexColumn">
+      <span>
+        <a href="">Privacy</a>
+        <a href="">Terms</a>
+        <a href="">Contact</a>
+      </span>
+      <p>Copyright 2016, Original Trombones</p>
     </footer>
   </body>
 </html>
