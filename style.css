@@ -28,7 +28,7 @@ header {
 }
 
 form {
-  margin-top: 115px;
+  margin-top: 135px;
   row-gap: 15px;
   text-align: center;
 }
@@ -67,6 +67,7 @@ button {
 
 #features p {
   margin: 0 15px 75px 15px;
+  max-width: 700px;
 }
 
 video {
@@ -114,12 +115,20 @@ footer span a {
   padding: 4px;
 }
 
+.fa-solid {
+  display: none;
+}
+
+#mainHeading {
+  display: flex;
+  justify-content: center;
+}
+
 @media (min-width: 520px) {
   #header {
     display: grid;
     grid-template-columns: auto auto;
     width: 100vw;
-    margin: 25px;
   }
 
   #nav-bar {
@@ -134,5 +143,67 @@ footer span a {
 
   #header-img {
     width: 27vw;
+  }
+
+  .fa-solid {
+    display: inline;
+    color: orange;
+    font-size: 40px;
+  }
+
+  #features {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    grid-template-rows: 100px 60px 100px 60px 100px 60px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #grid1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  #grid2 {
+    grid-column-start: 2;
+  }
+
+  #grid3 {
+    grid-column-start: 2;
+  }
+
+  #grid4 {
+    grid-row-start: 3;
+    grid-row-end: 5;
+  }
+
+  #grid5 {
+    grid-column-start: 2;
+  }
+
+  #grid6 {
+    grid-column-start: 2;
+  }
+
+  #grid7 {
+    grid-row-start: 5;
+    grid-row-end: 7;
+  }
+
+  #grid8 {
+    grid-column-start: 2;
+  }
+
+  #grid9 {
+    grid-column-start: 2;
+  }
+}
+
+@media (min-width: 930px) {
+  #cardsContainer {
+    display: grid;
+    grid-template-columns: 298px 298px 298px;
+    column-gap: 15px;
+    margin-bottom: 25px;
   }
 }
