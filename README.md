@@ -2,6 +2,8 @@
 
 This is my solution for the free code camp challenge (link HERE). I tried to be the more accurate possible with all CSS details and the more semantic possible with the HTML tags.
 
+**Note:** Don't forget to shrink to see the responsiveness.
+
 ## Built With
 
 -HTML and CSS
